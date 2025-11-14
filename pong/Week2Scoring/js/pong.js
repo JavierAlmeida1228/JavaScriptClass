@@ -42,7 +42,7 @@ function main() {
         { up: 'o', down: 'l' }
     ];
 
-    // handle paddle input
+    // handles paddle input
     for (let i = 0; i < pad.length; i++) {
         if (keys[keyMap[i].up]) pad[i].vy += -pad[i].force;
         if (keys[keyMap[i].down]) pad[i].vy += pad[i].force;
