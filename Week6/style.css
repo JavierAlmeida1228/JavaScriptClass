@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#form {
+  position: relative;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #aaa;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#confirmation {
+  position: relative;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #aaa;
+  border: 1px solid black;
+  padding: 10px;
+  display: none; /* hidden until validation passes */
+}
+
+/* Error vs Normal Label States */
+.errorLabel {
+  color: red;
+  font-weight: bold;
+}
+
+.normalLabel {
+  color: black;
+}
+
+/* Error Message Span */
+span {
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
